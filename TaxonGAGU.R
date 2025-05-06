@@ -12,10 +12,10 @@ library("ggVennDiagram")
 library("ggplot2")
 library("palettetown")
 
-setwd("/Users/nancytorres/ResearchProject/Script/GAGU_DS")
+setwd("PATH")
 # sheet names are Gabon DIAmond and Guinea Diamond
 # Specify the sheet by name, since its named 
-sheet_names <- excel_sheets("MAGs-DIAMOND.xlsx")
+sheet_names <- excel_sheets("EXCEL_SHEET")
 print(sheet_names)
 
 GA <-read_excel("MAGs-DIAMOND.xlsx", sheet = "Gabon DIAmond")
