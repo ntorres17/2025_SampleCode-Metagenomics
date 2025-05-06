@@ -1,5 +1,5 @@
 
-# Genes only
+# Genes only searching initial dataset to obtain idea of what is held within
 
 library("readxl")
 library("tidyverse")
@@ -11,12 +11,12 @@ library("VennDiagram")
 library("ggVennDiagram")
 library("ggplot2")
 
-setwd("/Users/nancytorres/ResearchProject/Script/GAGU_DS")
+setwd("PATH")
 # sheet names are Gabon DIAmond and Guinea Diamond
 # Specify the sheet by name, since its named 
 
 # Set up
-sheet_names <- excel_sheets("MAGs-DIAMOND.xlsx")
+sheet_names <- excel_sheets("excel_sheet")
 print(sheet_names)
 
 GA <-read_excel("MAGs-DIAMOND.xlsx", sheet = "Gabon DIAmond")
