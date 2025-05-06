@@ -9,10 +9,10 @@ library("Biostrings")
 library("ggVennDiagram")
 library("ggplot2")
 
-setwd("/Users/nancytorres/ResearchProject/Refined_MB_Light")
+setwd("PATH")
 
 # Read in excel
-Excel_path <- "/Users/nancytorres/ResearchProject/Refined_MB_Light/Refined_light.xlsx"
+Excel_path <- "EXCEL_FILE"
 sheet_names <- excel_sheets(Excel_path)
 
 df_list <- list()
